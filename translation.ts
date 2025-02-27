@@ -1,6 +1,4 @@
-import { HfInference } from "@huggingface/inference";
-
-const hf = new HfInference(process.env.HUGGINGFACE_TOKEN);
+import { hf } from "./lib";
 
 const result = await hf.translation({
   model: "facebook/mbart-large-50-many-to-many-mmt",

@@ -1,7 +1,7 @@
 import { hf } from "./lib";
 import fs from "fs";
 
-const text = "It's an exciting time to be an A.I. engineer.";
+const text = "Hello, world! This is a test. I am an AI speaker. ";
 const result = await hf.textToSpeech({
   model: "facebook/fastspeech2-en-ljspeech",
   inputs: text,

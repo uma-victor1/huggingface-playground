@@ -1,7 +1,7 @@
 import { pipeline } from "@xenova/transformers";
 import { supabase } from "../lib.js";
 
-const query = "Recommend a 30 min podcast";
+const query = "An episode Elon Musk would enjoy";
 
 // get the embedding of the query
 // get embedder with pipeline

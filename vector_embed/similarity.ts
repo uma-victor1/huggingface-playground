@@ -1,5 +1,5 @@
 import { pipeline } from "@xenova/transformers";
-import { supabase } from "../lib.js";
+import { supabase } from "../lib.ts";
 
 const query = "An episode Elon Musk would enjoy";
 
